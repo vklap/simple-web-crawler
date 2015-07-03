@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/vklap/simple-web-crawler/issues"
   },
-  "homepage": "https://github.com/vklap/simple-web-crawler"
+  "homepage": "https://github.com/vklap/simple-web-crawler",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "phantomjs": "^1.9.17",
+    "redis": "^0.12.1",
+    "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "expect": "^1.6.0",
+    "mocha": "^2.2.5"
+  }
 }
